@@ -19,12 +19,12 @@
   --p-color:                      #717275;
   --border-color:                 #e0e0e5;
   --link-hover-color:             #E63946;
-  --rf-nav-pills-border-radius: 0.375rem;
+  /* --rf-nav-pills-border-radius: 0.375rem;
   --rf-nav-pills-link-active-color: #ffffff;
   --rf-nav-pills-link-active-bg: #E63946;
 
   --rf-nav-link-color: var(--bs-link-color);
-  --rf-nav-link-hover-color: var(--primary-color);
+  --rf-nav-link-hover-color: var(--primary-color); */
 
 
   --h1-font-size:                 74px;
@@ -53,7 +53,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+/* .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: var(--rf-nav-pills-link-active-color);
   background-color: var(--rf-nav-pills-link-active-bg);
 }
@@ -74,7 +74,7 @@ body {
 
 .tab-pane{
   background-color: var(--section-bg-color);
-}
+} */
 
 
 /*---------------------------------------
