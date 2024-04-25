@@ -323,13 +323,15 @@
                                                             Class Exams</span> <span
                                                             class="badge bg-success px-2">36</span></button>
                                                 </div>
-                                                <div id="ce-chart" class="mt-4"></div>
-
+                                                <div id="ce-chart" class="mt-4 border-bottom pb-3"></div>
+                                                <h6 class="my-4">Exam Averages</h6>
+                                                <div id="cavg-chart" class="border-bottom pb-3"></div>
                                             </div>
                                         </div>
                                         <div class="col-lg-5 col-12">
                                             <div
                                                 class="custom-block custom-block-profile-front custom-block-profile text-center bg-white border">
+                                                <h6 class="text-start">Class Teacher</h6>
                                                 <div class="custom-block-profile-image-wrap mb-4">
                                                     <img src="images/profile/white.jpg"
                                                         class="custom-block-profile-image img-fluid" alt="profile pic">
@@ -352,7 +354,10 @@
                                                     </a>
                                                 </p>
                                             </div>
-                                            <div id="ca-chart" class="mt-4"></div>
+                                            <div class="custom-block bg-white border">
+                                                <h6>Class Strength</h6>
+                                                <div id="ca-chart"></div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- /tab 1 content -->
@@ -415,65 +420,120 @@
     </script>
 
     <script type="text/javascript">
-    var options = {
-          series: [{
-          name: 'Boys',
-          data: [44, 55]
-        }, {
-          name: 'Girls',
-          data: [33, 23]
-        }],
-          chart: {
-          type: 'bar',
-          height: 250,
-          stacked: true,
-          toolbar: {
-            show: true
-          },
-        },
-        responsive: [{
-          breakpoint: 480,
-          options: {
-            legend: {
-              position: 'bottom',
-              offsetX: -10,
-              offsetY: 0
-            }
-          }
-        }],
-        plotOptions: {
-          bar: {
-            horizontal: false,
-            borderRadius: 10,
-            borderRadiusApplication: 'end', // 'around', 'end'
-            borderRadiusWhenStacked: 'last', // 'all', 'last'
-            dataLabels: {
-              total: {
-                enabled: true,
-                style: {
-                  fontSize: '13px',
-                  fontWeight: 900
+        var options = {
+            series: [{
+                name: 'Boys',
+                data: [44, 55]
+            }, {
+                name: 'Girls',
+                data: [33, 23]
+            }],
+            chart: {
+                type: 'bar',
+                height: 250,
+                stacked: true,
+                toolbar: {
+                    show: true
+                },
+            },
+            responsive: [{
+                breakpoint: 480,
+                options: {
+                    legend: {
+                        position: 'bottom',
+                        offsetX: -10,
+                        offsetY: 0
+                    }
                 }
-              }
+            }],
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    borderRadius: 10,
+                    borderRadiusApplication: 'end', // 'around', 'end'
+                    borderRadiusWhenStacked: 'last', // 'all', 'last'
+                    dataLabels: {
+                        total: {
+                            enabled: true,
+                            style: {
+                                fontSize: '13px',
+                                fontWeight: 900
+                            }
+                        }
+                    }
+                },
+            },
+            xaxis: {
+                categories: ['Section A', 'Section B'],
+            },
+            legend: {
+                position: 'right',
+                offsetY: 40
+            },
+            fill: {
+                opacity: 1
             }
-          },
-        },
-        xaxis: {
-          categories: ['Section A','Section B'],
-        },
-        legend: {
-          position: 'right',
-          offsetY: 40
-        },
-        fill: {
-          opacity: 1
-        }
         };
         var chart = new ApexCharts(document.querySelector("#ca-chart"), options);
         chart.render();
 
     </script>
+    <script type="text/javascript">
 
+        var options = {
+            series: [{
+                name: 'School Exams',
+                data: [75, 68, 80, 75, 70, 72]
+            }, {
+                name: 'Class Exams',
+                data: [70, 65, 79, 74, 71, 73]
+            }],
+            chart: {
+                type: 'bar',
+                height: 350
+            },
+            plotOptions: {
+                bar: {
+                    borderRadius: 4,
+                    borderRadiusApplication: 'end',
+                    horizontal: false,
+                    columnWidth: '55%',
+                    endingShape: 'rounded'
+                },
+            },
+            dataLabels: {
+                enabled: true
+            },
+            stroke: {
+                show: true,
+                width: 2,
+                colors: ['transparent']
+            },
+            xaxis: {
+                categories: ['Tel', 'Hin', 'Eng', 'Mat', 'Sci', 'Soc'],
+            },
+            yaxis: {
+                title: {
+                    text: ''
+                }
+            },
+            fill: {
+                opacity: 1
+            },
+            tooltip: {
+                y: {
+                    formatter: function (val) {
+                        return val + "%"
+                    }
+                }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#cavg-chart"), options);
+        chart.render();
+
+
+    </script>
 </body>
 
 </html>
