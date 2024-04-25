@@ -72,6 +72,10 @@ body {
   color: var(--rf-nav-link-hover-color);
 }
 
+.tab-pane{
+  background-color: var(--section-bg-color);
+}
+
 
 /*---------------------------------------
   TYPOGRAPHY               
