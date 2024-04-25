@@ -1,6 +1,7 @@
 ToDo:
 * head -- title - punch line, favicon and other meta data
 * body -- logo, color theme
+* check custom.js -> rf-script.js
 
 References:
 * Checkout Progress Bar - https://bbbootstrap.com/snippets/bootstrap-progress-bar-steps-38773259

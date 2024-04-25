@@ -302,17 +302,29 @@
                                     <div class="row my-4">
                                         <div class="col-lg-7 col-12">
                                             <div class="custom-block bg-white pt-0">
-                                                <div class="d-flex">
+                                                <h6 class="mb-3">School Exams</h6>
+                                                <div class="d-flex border-bottom pb-3">
                                                     <div class="p-2 flex-fill">
-                                                        <button type="button" class="btn btn-light">Quarterly <span><i class="bi-check-circle-fill text-success"></i></span></button>
+                                                        <button type="button" class="custom-btn2">Quarterly <span><i
+                                                                    class="bi-check-circle-fill text-success"></i></span></button>
                                                     </div>
                                                     <div class="p-2 flex-fill">
-                                                        <button type="button" class="btn btn-light">Half Yearly <span><i class="bi-check-circle-fill text-success"></i></span></button>
+                                                        <button type="button" class="custom-btn2">Half Yearly <span><i
+                                                                    class="bi-check-circle-fill text-success"></i></span></button>
                                                     </div>
                                                     <div class="p-2 flex-fill">
-                                                        <button type="button" class="btn btn-light disabled">Annual</button>
+                                                        <button type="button"
+                                                            class="btn custom-btn disabled">Annual</button>
                                                     </div>
-                                                  </div>
+                                                </div>
+                                                <h6 class="my-4">Class Exams</h6>
+                                                <div class="d-grid">
+                                                    <button type="button" class="custom-btn2"><span class="px-2">Total
+                                                            Class Exams</span> <span
+                                                            class="badge bg-success px-2">36</span></button>
+                                                </div>
+                                                <div id="ce-chart" class="mt-4"></div>
+
                                             </div>
                                         </div>
                                         <div class="col-lg-5 col-12">
@@ -320,33 +332,27 @@
                                                 class="custom-block custom-block-profile-front custom-block-profile text-center bg-white border">
                                                 <div class="custom-block-profile-image-wrap mb-4">
                                                     <img src="images/profile/white.jpg"
-                                                        class="custom-block-profile-image img-fluid" alt="">
-
+                                                        class="custom-block-profile-image img-fluid" alt="profile pic">
                                                     <a href="#!" class="bi-eye custom-block-edit-icon"></a>
                                                 </div>
-
                                                 <p class="d-flex flex-wrap mb-2">
                                                     <strong>Name:</strong>
-
                                                     <span>Keerthy S</span>
                                                 </p>
-
                                                 <p class="d-flex flex-wrap mb-2">
                                                     <strong>Email:</strong>
-
                                                     <a href="#!">
                                                         keerthy.s@dpstpt.com
                                                     </a>
                                                 </p>
-
                                                 <p class="d-flex flex-wrap mb-0">
                                                     <strong>Phone:</strong>
-
                                                     <a href="#!">
                                                         +91 90001 00023
                                                     </a>
                                                 </p>
                                             </div>
+                                            <div id="ca-chart" class="mt-4"></div>
                                         </div>
                                     </div>
                                     <!-- /tab 1 content -->
@@ -377,8 +383,96 @@
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/apexcharts.min.js"></script>
+    <script src="js/apexcharts.js"></script>
     <script src="js/rf-script.js"></script>
+
+    <script type="text/javascript">
+        var options = {
+            series: [{
+                data: [5, 6, 5, 7, 7, 6]
+            }],
+            chart: {
+                type: 'bar',
+                height: 250
+            },
+            plotOptions: {
+                bar: {
+                    borderRadius: 4,
+                    borderRadiusApplication: 'end',
+                    horizontal: true,
+                }
+            },
+            dataLabels: {
+                enabled: true,
+            },
+            xaxis: {
+                categories: ['Telugu', 'Hindi', 'English', 'Maths', 'Science', 'Social']
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#ce-chart"), options);
+        chart.render();
+    </script>
+
+    <script type="text/javascript">
+    var options = {
+          series: [{
+          name: 'Boys',
+          data: [44, 55]
+        }, {
+          name: 'Girls',
+          data: [33, 23]
+        }],
+          chart: {
+          type: 'bar',
+          height: 250,
+          stacked: true,
+          toolbar: {
+            show: true
+          },
+        },
+        responsive: [{
+          breakpoint: 480,
+          options: {
+            legend: {
+              position: 'bottom',
+              offsetX: -10,
+              offsetY: 0
+            }
+          }
+        }],
+        plotOptions: {
+          bar: {
+            horizontal: false,
+            borderRadius: 10,
+            borderRadiusApplication: 'end', // 'around', 'end'
+            borderRadiusWhenStacked: 'last', // 'all', 'last'
+            dataLabels: {
+              total: {
+                enabled: true,
+                style: {
+                  fontSize: '13px',
+                  fontWeight: 900
+                }
+              }
+            }
+          },
+        },
+        xaxis: {
+          categories: ['Section A','Section B'],
+        },
+        legend: {
+          position: 'right',
+          offsetY: 40
+        },
+        fill: {
+          opacity: 1
+        }
+        };
+        var chart = new ApexCharts(document.querySelector("#ca-chart"), options);
+        chart.render();
+
+    </script>
 
 </body>
 
