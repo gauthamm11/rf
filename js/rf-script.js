@@ -8,7 +8,7 @@
         $("#sidebarMenu").collapse('hide');
       });
       
-      // CUSTOM LINK
+      
       $('.smoothscroll').click(function(){
         var el = $(this).attr('href');
         var elWrapped = $(el);
