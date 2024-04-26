@@ -204,7 +204,7 @@ strong {
 
 .nav-tabs {
   border-bottom: 1px solid var(--border-color);
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .nav-tabs .nav-link {
