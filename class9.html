@@ -277,37 +277,33 @@
                         <div class="custom-block bg-white">
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link active" id="profile-tab" data-bs-toggle="tab"
-                                        data-bs-target="#profile-tab-pane" type="button" role="tab"
-                                        aria-controls="profile-tab-pane" aria-selected="true">Overview</button>
+                                    <button class="nav-link active" id="overview-tab" data-bs-toggle="tab"
+                                        data-bs-target="#overview-tab-pane" type="button" role="tab"
+                                        aria-controls="overview-tab-pane" aria-selected="true">Overview</button>
                                 </li>
 
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="password-tab" data-bs-toggle="tab"
-                                        data-bs-target="#password-tab-pane" type="button" role="tab"
-                                        aria-controls="password-tab-pane" aria-selected="false">Section A</button>
+                                    <button class="nav-link" id="sectiona-tab" data-bs-toggle="tab"
+                                        data-bs-target="#sectiona-tab-pane" type="button" role="tab"
+                                        aria-controls="sectiona-tab-pane" aria-selected="false">Section A</button>
                                 </li>
 
                                 <li class="nav-item" role="presentation">
-                                    <button class="nav-link" id="notification-tab" data-bs-toggle="tab"
-                                        data-bs-target="#notification-tab-pane" type="button" role="tab"
-                                        aria-controls="notification-tab-pane" aria-selected="false">Section B</button>
+                                    <button class="nav-link" id="sectionb-tab" data-bs-toggle="tab"
+                                        data-bs-target="#sectionb-tab-pane" type="button" role="tab"
+                                        aria-controls="sectionb-tab-pane" aria-selected="false">Section B</button>
                                 </li>
                             </ul>
 
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="profile-tab-pane" role="tabpanel"
-                                    aria-labelledby="profile-tab" tabindex="0">
+                                <div class="tab-pane fade show active" id="overview-tab-pane" role="tabpanel"
+                                    aria-labelledby="overview-tab" tabindex="0">
                                     <!-- tab 1 content -->
                                     <div class="row my-4">
                                         <div class="col-lg-7 col-12">
                                             <div class="custom-block bg-white pt-0">
                                                 <h6 class="mb-3">School Exams</h6>
                                                 <div class="d-flex border-bottom pb-3">
-                                                    <div class="p-2 flex-fill">
-                                                        <button type="button" class="custom-btn2">Quarterly <span><i
-                                                                    class="bi-check-circle-fill text-success"></i></span></button>
-                                                    </div>
                                                     <div class="p-2 flex-fill">
                                                         <button type="button" class="custom-btn2">Half Yearly <span><i
                                                                     class="bi-check-circle-fill text-success"></i></span></button>
@@ -324,7 +320,7 @@
                                                             class="badge bg-success px-2">36</span></button>
                                                 </div>
                                                 <div id="ce-chart" class="mt-4 border-bottom pb-3"></div>
-                                                <h6 class="my-4">Exam Averages</h6>
+                                                <h6 class="my-4">Class Averages</h6>
                                                 <div id="cavg-chart" class="border-bottom pb-3"></div>
                                             </div>
                                         </div>
@@ -363,15 +359,139 @@
                                     <!-- /tab 1 content -->
                                 </div>
 
-                                <div class="tab-pane fade" id="password-tab-pane" role="tabpanel"
-                                    aria-labelledby="password-tab" tabindex="0">
+                                <div class="tab-pane fade" id="sectiona-tab-pane" role="tabpanel"
+                                    aria-labelledby="sectiona-tab" tabindex="0">
                                     <!-- tab 2 content -->
-
+                                    <div class="table-responsive">
+                                        <table class="account-table table table-bordered">
+                                        <thead>
+                                          <tr>
+                                            <th>Scholastic Area</th>
+                                            <th colspan="6">Term I</th>
+                                            <th colspan="6">Term II</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>Subject</td>
+                                            <td>Written Test (10)</td>
+                                            <td>Subject Enrichment (5)</td>
+                                            <td>CW &amp; HW (5)</td>
+                                            <td>Half Yearly Exam (80)</td>
+                                            <td>Marks Obtained (100)</td>
+                                            <td>GRADE</td>
+                                            <td>Written Test (10)</td>
+                                            <td>Subject Enrichment (5)</td>
+                                            <td>CW &amp; HW (5)</td>
+                                            <td>Annual Exam (80)</td>
+                                            <td>Marks Obtained (100)</td>
+                                            <td>GRADE</td>
+                                          </tr>
+                                          <tr>
+                                            <td>English</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Mathematics</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td>EVS/Science</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Telugu</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Hindi</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Social Studies</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td>Total (600)</td>
+                                            <td colspan="4">TERM - I (TOTAL)</td>
+                                            <td colspan="2">555</td>
+                                            <td colspan="4">TERM - II (TOTAL) </td>
+                                            <td colspan="2">589</td>
+                                          </tr>
+                                        </tbody>
+                                        </table>
+                                        </div>
                                     <!-- /tab 2 content -->
                                 </div>
 
-                                <div class="tab-pane fade" id="notification-tab-pane" role="tabpanel"
-                                    aria-labelledby="notification-tab" tabindex="0">
+                                <div class="tab-pane fade" id="sectionb-tab-pane" role="tabpanel"
+                                    aria-labelledby="sectionb-tab" tabindex="0">
                                     <!-- tab 3 content -->
                                     <!-- /tab 3 content -->
                                 </div>
