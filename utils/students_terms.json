@@ -1,0 +1,564 @@
+[
+    {
+        "name": "Aarav",
+        "rollNo": 101,
+        "class": 9,
+        "section": "A",
+        "guardian": "Mr. Raghav",
+        "grades": {
+            "English": {
+                "term1": {
+                    "writtenTest": 9,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 86,
+                    "grade": "A"
+                },
+                "term2": {
+                    "writtenTest": 8,
+                    "enrichment": 4,
+                    "cwHw": 4,
+                    "annual": 75,
+                    "total": 91,
+                    "grade": "A"
+                }
+            },
+            "Maths": {
+                "term1": {
+                    "writtenTest": 10,
+                    "enrichment": 5,
+                    "cwHw": 4,
+                    "halfYearly": 75,
+                    "total": 94,
+                    "grade": "A+"
+                },
+                "term2": {
+                    "writtenTest": 10,
+                    "enrichment": 5,
+                    "cwHw": 4,
+                    "annual": 78,
+                    "total": 97,
+                    "grade": "A+"
+                }
+            }
+        },
+        "termTotals": {
+            "term1": 530,
+            "term2": 529
+        }
+    },
+    {
+        "name": "Bhoomi",
+        "rollNo": 102,
+        "class": 9,
+        "section": "A",
+        "guardian": "Mrs. Lakshmi",
+        "grades": {
+            "English": {
+                "term1": {
+                    "writtenTest": 7,
+                    "enrichment": 3,
+                    "cwHw": 2,
+                    "halfYearly": 65,
+                    "total": 77,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 6,
+                    "enrichment": 3,
+                    "cwHw": 3,
+                    "annual": 70,
+                    "total": 82,
+                    "grade": "B+"
+                }
+            },
+            "Maths": {
+                "term1": {
+                    "writtenTest": 9,
+                    "enrichment": 5,
+                    "cwHw": 4,
+                    "halfYearly": 70,
+                    "total": 88,
+                    "grade": "A"
+                },
+                "term2": {
+                    "writtenTest": 9,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "annual": 72,
+                    "total": 88,
+                    "grade": "A"
+                }
+            }
+        },
+        "termTotals": {
+            "term1": 500,
+            "term2": 510
+        }
+    },
+    {
+        "name": "Chaitanya",
+        "rollNo": 103,
+        "class": 9,
+        "section": "B",
+        "guardian": "Mr. Vijay",
+        "grades": {
+            "English": {
+                "term1": {
+                    "writtenTest": 8,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 85,
+                    "grade": "A"
+                },
+                "term2": {
+                    "writtenTest": 7,
+                    "enrichment": 3,
+                    "cwHw": 4,
+                    "annual": 70,
+                    "total": 84,
+                    "grade": "B+"
+                }
+            },
+            "Maths": {
+                "term1": {
+                    "writtenTest": 10,
+                    "enrichment": 5,
+                    "cwHw": 4,
+                    "halfYearly": 75,
+                    "total": 94,
+                    "grade": "A+"
+                },
+                "term2": {
+                    "writtenTest": 10,
+                    "enrichment": 5,
+                    "cwHw": 4,
+                    "annual": 78,
+                    "total": 97,
+                    "grade": "A+"
+                }
+            }
+        },
+        "termTotals": {
+            "term1": 530,
+            "term2": 529
+        }
+    },
+    {
+        "name": "Deepika",
+        "rollNo": 104,
+        "class": 9,
+        "section": "B",
+        "guardian": "Mrs. Meena",
+        "grades": {
+            "English": {
+                "term1": {
+                    "writtenTest": 8,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 85,
+                    "grade": "A"
+                },
+                "term2": {
+                    "writtenTest": 7,
+                    "enrichment": 3,
+                    "cwHw": 4,
+                    "annual": 72,
+                    "total": 84,
+                    "grade": "B+"
+                }
+            },
+            "Maths": {
+                "term1": {
+                    "writtenTest": 9,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 86,
+                    "grade": "A"
+                },
+                "term2": {
+                    "writtenTest": 9,
+                    "enrichment": 3,
+                    "cwHw": 4,
+                    "annual": 74,
+                    "total": 90,
+                    "grade": "A+"
+                }
+            }
+        },
+        "termTotals": {
+            "term1": 500,
+            "term2": 505
+        }
+    },
+    {
+        "name": "Eshaan",
+        "rollNo": 105,
+        "class": 9,
+        "section": "C",
+        "guardian": "Mr. Arjun",
+        "grades": {
+            "English": {
+                "term1": {
+                    "writtenTest": 7,
+                    "enrichment": 3,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 83,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 6,
+                    "enrichment": 4,
+                    "cwHw": 4,
+                    "annual": 70,
+                    "total": 84,
+                    "grade": "B+"
+                }
+            },
+            "Maths": {
+                "term1": {
+                    "writtenTest": 8,
+                    "enrichment": 3,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 84,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 8,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "annual": 75,
+                    "total": 87,
+                    "grade": "B+"
+                }
+            }
+        },
+        "termTotals": {
+            "term1": 500,
+            "term2": 510
+        }
+    },
+    {
+        "name": "Sara Alia",
+        "rollNo": 106,
+        "class": 9,
+        "section": "C",
+        "guardian": "Mrs. Fathima",
+        "grades": {
+            "English": {
+                "term1": {
+                    "writtenTest": 7,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 84,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 6,
+                    "enrichment": 3,
+                    "cwHw": 4,
+                    "annual": 70,
+                    "total": 83,
+                    "grade": "B+"
+                }
+            },
+            "Maths": {
+                "term1": {
+                    "writtenTest": 8,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 85,
+                    "grade": "A"
+                },
+                "term2": {
+                    "writtenTest": 9,
+                    "enrichment": 3,
+                    "cwHw": 4,
+                    "annual": 78,
+                    "total": 92,
+                    "grade": "A+"
+                }
+            }
+        },
+        "termTotals": {
+            "term1": 500,
+            "term2": 510
+        }
+    },
+    {
+        "name": "Ganesh",
+        "rollNo": 107,
+        "class": 9,
+        "section": "A",
+        "guardian": "Mr. Kumar",
+        "grades": {
+            "English": {
+                "term1": {
+                    "writtenTest": 7,
+                    "enrichment": 3,
+                    "cwHw": 3,
+                    "halfYearly": 68,
+                    "total": 81,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 8,
+                    "enrichment": 4,
+                    "cwHw": 4,
+                    "annual": 72,
+                    "total": 88,
+                    "grade": "A"
+                }
+            },
+            "Maths": {
+                "term1": {
+                    "writtenTest": 9,
+                    "enrichment": 4,
+                    "cwHw": 4,
+                    "halfYearly": 72,
+                    "total": 89,
+                    "grade": "A"
+                },
+                "term2": {
+                    "writtenTest": 9,
+                    "enrichment": 5,
+                    "cwHw": 4,
+                    "annual": 78,
+                    "total": 95,
+                    "grade": "A+"
+                }
+            },
+            "Science": {
+                "term1": {
+                    "writtenTest": 8,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 85,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 7,
+                    "enrichment": 3,
+                    "cwHw": 3,
+                    "annual": 73,
+                    "total": 86,
+                    "grade": "B+"
+                }
+            }
+        },
+        "termTotals": {
+            "term1": 520,
+            "term2": 540
+        }
+    },
+    {
+        "name": "Haritha",
+        "rollNo": 108,
+        "class": 9,
+        "section": "B",
+        "guardian": "Mrs. Anjali",
+        "grades": {
+            "English": {
+                "term1": {
+                    "writtenTest": 8,
+                    "enrichment": 3,
+                    "cwHw": 3,
+                    "halfYearly": 68,
+                    "total": 82,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 7,
+                    "enrichment": 4,
+                    "cwHw": 4,
+                    "annual": 70,
+                    "total": 85,
+                    "grade": "B+"
+                }
+            },
+            "Maths": {
+                "term1": {
+                    "writtenTest": 9,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 86,
+                    "grade": "A"
+                },
+                "term2": {
+                    "writtenTest": 8,
+                    "enrichment": 4,
+                    "cwHw": 4,
+                    "annual": 75,
+                    "total": 91,
+                    "grade": "A+"
+                }
+            },
+            "Science": {
+                "term1": {
+                    "writtenTest": 7,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 84,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 6,
+                    "enrichment": 3,
+                    "cwHw": 3,
+                    "annual": 72,
+                    "total": 84,
+                    "grade": "B+"
+                }
+            }
+        },
+        "termTotals": {
+            "term1": 520,
+            "term2": 540
+        }
+    },
+    {
+        "name": "Ishita",
+        "rollNo": 109,
+        "class": 9,
+        "section": "B",
+        "guardian": "Mrs. Sunita",
+        "grades": {
+            "English": {
+                "term1": {
+                    "writtenTest": 6,
+                    "enrichment": 3,
+                    "cwHw": 2,
+                    "halfYearly": 65,
+                    "total": 76,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 7,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "annual": 70,
+                    "total": 84,
+                    "grade": "B+"
+                }
+            },
+            "Maths": {
+                "term1": {
+                    "writtenTest": 9,
+                    "enrichment": 5,
+                    "cwHw": 4,
+                    "halfYearly": 70,
+                    "total": 88,
+                    "grade": "A"
+                },
+                "term2": {
+                    "writtenTest": 8,
+                    "enrichment": 4,
+                    "cwHw": 4,
+                    "annual": 75,
+                    "total": 91,
+                    "grade": "A+"
+                }
+            },
+            "Science": {
+                "term1": {
+                    "writtenTest": 8,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "halfYearly": 70,
+                    "total": 85,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 7,
+                    "enrichment": 3,
+                    "cwHw": 3,
+                    "annual": 72,
+                    "total": 84,
+                    "grade": "B+"
+                }
+            }
+        },
+        "termTotals": {
+            "term1": 510,
+            "term2": 540
+        }
+    },
+    {
+        "name": "Jai",
+        "rollNo": 110,
+        "class": 9,
+        "section": "A",
+        "guardian": "Mr. Prakash",
+        "grades": {
+            "English": {
+                "term1": {
+                    "writtenTest": 7,
+                    "enrichment": 3,
+                    "cwHw": 3,
+                    "halfYearly": 65,
+                    "total": 78,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 6,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "annual": 70,
+                    "total": 83,
+                    "grade": "B+"
+                }
+            },
+            "Maths": {
+                "term1": {
+                    "writtenTest": 9,
+                    "enrichment": 4,
+                    "cwHw": 4,
+                    "halfYearly": 70,
+                    "total": 87,
+                    "grade": "A"
+                },
+                "term2": {
+                    "writtenTest": 8,
+                    "enrichment": 3,
+                    "cwHw": 4,
+                    "annual": 74,
+                    "total": 89,
+                    "grade": "A+"
+                }
+            },
+            "Science": {
+                "term1": {
+                    "writtenTest": 7,
+                    "enrichment": 3,
+                    "cwHw": 3,
+                    "halfYearly": 68,
+                    "total": 81,
+                    "grade": "B+"
+                },
+                "term2": {
+                    "writtenTest": 6,
+                    "enrichment": 4,
+                    "cwHw": 3,
+                    "annual": 70,
+                    "total": 83,
+                    "grade": "B+"
+                }
+            }
+        },
+        "termTotals": {
+            "term1": 500,
+            "term2": 510
+        }
+    }
+]

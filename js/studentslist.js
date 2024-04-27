@@ -1,6 +1,6 @@
 async function fetchStudentData(className, sectionName, accordionId, sortByNameId, sortByTotalId) {
   try {
-    const response = await fetch("utils/students.json");
+    const response = await fetch("utils/students_simple.json");
     if (!response.ok) {
       throw new Error(`Failed to fetch: ${response.statusText}`);
     }
@@ -54,11 +54,136 @@ async function fetchStudentData(className, sectionName, accordionId, sortByNameI
 
         const cardBody = `
 <div id="${studentID}" class="collapse" data-bs-parent="#${accordionId}">
-  <div class="card-body">
-    <strong>Roll No:</strong> ${student.rollNo}<br>
+  <div class="card-body p-0">
+    <!-- <strong>Roll No:</strong> ${student.rollNo}<br>
     <strong>Class:</strong> ${student.class}<br>
     <strong>Section:</strong> ${student.section}<br>
-    <strong>Guardian:</strong> ${student.guardian}
+    <strong>Guardian:</strong> ${student.guardian}<br> -->
+    <div class="table-responsive">
+    <table class="account-table table table-bordered">
+        <thead>
+            <tr>
+                <th>Scholastic Area</th>
+                <th colspan="6">Term I</th>
+                <th colspan="6">Term II</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Subject</td>
+                <td>Written Test (10)</td>
+                <td>Subject Enrichment (5)</td>
+                <td>CW &amp; HW (5)</td>
+                <td>Half Yearly Exam (80)</td>
+                <td>Marks Obtained (100)</td>
+                <td>GRADE</td>
+                <td>Written Test (10)</td>
+                <td>Subject Enrichment (5)</td>
+                <td>CW &amp; HW (5)</td>
+                <td>Annual Exam (80)</td>
+                <td>Marks Obtained (100)</td>
+                <td>GRADE</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mathematics</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>EVS/Science</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Telugu</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Hindi</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Social Studies</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Total (600)</td>
+                <td colspan="4">TERM - I (TOTAL)</td>
+                <td colspan="2">555</td>
+                <td colspan="4">TERM - II (TOTAL) </td>
+                <td colspan="2">589</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
   </div>
 </div>
 `;
