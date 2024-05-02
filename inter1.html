@@ -195,10 +195,10 @@
                     <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview-tab-pane" type="button" role="tab" aria-controls="overview-tab-pane" aria-selected="true">Overview</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="sectiona-tab" data-bs-toggle="tab" data-bs-target="#sectiona-tab-pane" type="button" role="tab" aria-controls="sectiona-tab-pane" aria-selected="false">Section A</button>
+                    <button class="nav-link" id="sectiona-tab" data-bs-toggle="tab" data-bs-target="#sectiona-tab-pane" type="button" role="tab" aria-controls="sectiona-tab-pane" aria-selected="false">IIT JEE</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="sectionb-tab" data-bs-toggle="tab" data-bs-target="#sectionb-tab-pane" type="button" role="tab" aria-controls="sectionb-tab-pane" aria-selected="false">Section B</button>
+                    <button class="nav-link" id="sectionb-tab" data-bs-toggle="tab" data-bs-target="#sectionb-tab-pane" type="button" role="tab" aria-controls="sectionb-tab-pane" aria-selected="false">NEET</button>
                   </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
@@ -211,11 +211,11 @@
                           <h6 class="mb-3">School Exams</h6>
                           <div class="d-flex border-bottom pb-3">
                             <div class="p-2 flex-fill">
-                              <button type="button" class="custom-btn2">Half Yearly <span><i
+                              <button type="button" class="custom-btn2">Term 1 <span><i
                                                                     class="bi-check-circle-fill text-success"></i></span></button>
                             </div>
                             <div class="p-2 flex-fill">
-                              <button type="button" class="btn custom-btn disabled">Annual</button>
+                              <button type="button" class="btn custom-btn disabled">Term 2</button>
                             </div>
                           </div>
                           <h6 class="my-4">Class Exams</h6>
@@ -233,23 +233,23 @@
                         <div class="custom-block custom-block-profile-front custom-block-profile text-center bg-white border">
                           <h6 class="text-start">Class Teacher</h6>
                           <div class="custom-block-profile-image-wrap mb-4">
-                            <img src="images/profile/ivory.jpg" class="custom-block-profile-image img-fluid" alt="profile pic">
+                            <img src="images/profile/blue.jpg" class="custom-block-profile-image img-fluid" alt="profile pic">
                             <a href="#!" class="bi-eye custom-block-edit-icon"></a>
                           </div>
                           <p class="d-flex flex-wrap mb-2">
                             <strong>Name:</strong>
-                            <span>Sree Ram C</span>
+                            <span>Ravi Varma R</span>
                           </p>
                           <p class="d-flex flex-wrap mb-2">
                             <strong>Email:</strong>
                             <a href="#!">
-                              sreeram@apstpt.com
+                              ravivar@aitpt.com
                             </a>
                           </p>
                           <p class="d-flex flex-wrap mb-0">
                             <strong>Phone:</strong>
                             <a href="#!">
-                              +91 90001 00023
+                              +91 90001 12323
                             </a>
                           </p>
                         </div>
@@ -303,7 +303,7 @@
     <script>
       var options = {
         series: [{
-          data: [5, 6, 5, 7, 7, 6]
+          data: [6, 6, 12, 14]
         }],
         chart: {
           type: 'bar',
@@ -321,7 +321,7 @@
           enabled: true,
         },
         xaxis: {
-          categories: ['Telugu', 'Hindi', 'English', 'Maths', 'Science', 'Social']
+          categories: ['IIT JEE', 'NEET', 'IPE', 'CDF']
         }
       };
       var chart = new ApexCharts(document.querySelector("#ce-chart"), options);
@@ -331,10 +331,10 @@
       var options = {
         series: [{
           name: 'Boys',
-          data: [18, 21]
+          data: [27, 9]
         }, {
           name: 'Girls',
-          data: [21, 15]
+          data: [12, 26]
         }],
         chart: {
           type: 'bar',
@@ -373,7 +373,7 @@
           },
         },
         xaxis: {
-          categories: ['Section A', 'Section B'],
+          categories: ['IIT JEE', 'NEET'],
         },
         legend: {
           position: 'right',
@@ -389,11 +389,11 @@
     <script>
       var options = {
         series: [{
-          name: 'School Exams',
-          data: [75, 68, 80, 75, 70, 72]
+          name: 'Term Exams',
+          data: [75, 68, 80, 75]
         }, {
           name: 'Class Exams',
-          data: [70, 65, 79, 74, 71, 73]
+          data: [70, 65, 79, 74]
         }],
         chart: {
           type: 'bar',
@@ -418,7 +418,7 @@
           colors: ['transparent']
         },
         xaxis: {
-          categories: ['Tel', 'Hin', 'Eng', 'Mat', 'Sci', 'Soc'],
+          categories: ['IIT JEE', 'NEET', 'IPE', 'CDF'],
         },
         yaxis: {
           title: {
