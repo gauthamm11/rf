@@ -283,6 +283,12 @@
     <script src="js/rf-script.js"></script>
     <script src="js/studentslist.js"></script>
     <script>
+      var colors = [
+        '#e63946',
+        '#457b9d',
+      ]
+    </script>
+    <script>
       var options = {
         series: [{
           data: [5, 6, 5, 7, 7, 6]
@@ -291,6 +297,7 @@
           type: 'bar',
           height: 250
         },
+        colors: colors,
         plotOptions: {
           bar: {
             borderRadius: 4,
@@ -335,6 +342,7 @@
             }
           }
         }],
+        colors: colors,
         plotOptions: {
           bar: {
             horizontal: false,
@@ -379,6 +387,7 @@
           type: 'bar',
           height: 350
         },
+        colors: colors,
         plotOptions: {
           bar: {
             borderRadius: 4,

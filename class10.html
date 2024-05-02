@@ -284,6 +284,21 @@
     <script src="js/studentslist.js"></script>
     <!-- <script src="js/test.js"></script> -->
     <script>
+      var colors = [
+        // '#008FFB',
+        // '#FEB019',
+        // '#f79d65',
+        // '#FF4560',
+        // '#775DD0',
+        // '#546E7A',
+        // '#26a69a',
+        // '#D10CE8',
+        // '#e96a70',
+        '#e63946',
+        '#457b9d',
+      ]
+    </script>
+    <script>
       var options = {
         series: [{
           data: [5, 6, 5, 7, 7, 6]
@@ -292,6 +307,7 @@
           type: 'bar',
           height: 250
         },
+        colors: colors,
         plotOptions: {
           bar: {
             borderRadius: 4,
@@ -336,6 +352,7 @@
             }
           }
         }],
+        colors: colors,
         plotOptions: {
           bar: {
             horizontal: false,
@@ -380,6 +397,7 @@
           type: 'bar',
           height: 350
         },
+        colors: colors,
         plotOptions: {
           bar: {
             borderRadius: 4,
